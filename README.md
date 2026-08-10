@@ -2,6 +2,8 @@
 
 > Inspect what a retrieval system actually places in front of a model.
 
+**[Open the live retrieval workbench →](https://context-lab-blush.vercel.app)**
+
 ![Context Lab retrieval workbench](docs/context-lab-workbench.png)
 
 Context Lab is a browser-native workbench for comparing chunking choices and semantic retrieval. Documents and queries stay on the device: Transformers.js runs `all-MiniLM-L6-v2` inside a Web Worker and returns normalized embeddings for cosine ranking.
